@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+  }
+
+div.content {
+    text-align: center;
+    background-color: #31363F;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 100vh;
+    flex: 1;
+
+}
