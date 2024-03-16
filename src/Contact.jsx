@@ -60,7 +60,7 @@ export default function Contact() {
       <CssBaseline />
       <ResponsiveAppBar />
       <ThemeProvider theme={darkTheme}>
-        <Box sx={{ display: "flex", height: "100vh", width: "100vw" }}>
+        <Box sx={{ display: "flex", height: "92.1vh", width: "90vw" }}>
           <Box
             sx={{
               flexGrow: 1,
@@ -72,7 +72,7 @@ export default function Contact() {
             component={"form"}
             onSubmit={handleSubmit}
           >
-            <Grid container spacing={4} sx={{ width: 500 }}>
+            <Grid container spacing={4} sx={{ width: 300 }}>
               <Grid item xs={12}>
                 <FormControl fullWidth variant="standard">
                   <InputLabel htmlFor="input-with-icon-adornment">
